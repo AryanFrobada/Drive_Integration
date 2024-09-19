@@ -1,0 +1,19 @@
+{
+    "tasks": {
+      "frontend": {
+        "cache": false
+      },
+      "backend": {
+        "cache": false
+      },
+      "dev": {
+        "dependsOn": ["frontend", "backend"],
+        "cache": false
+      },
+      "build": {
+        "dependsOn": ["frontend", "backend"],
+        "outputs": ["**/dist/**"]
+      }
+    }
+  }
+  

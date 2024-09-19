@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "commonjs",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "rootDir": "./",
+      "typeRoots": ["./node_modules/@types", "./types"],
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*", "backend/types/*"]
+      },
+    },
+    "include": ["*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
